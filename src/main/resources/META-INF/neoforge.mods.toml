@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="citymod"
+version="1.0.0"
+displayName="Ciudad Infinita"
+description='''Un tipo de mundo con una ciudad infinita: carreteras, aceras, farolas, edificios y parques.'''
+
+[[dependencies.citymod]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.citymod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "citymod:city",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "minecraft:forest"
+        }
+      }
+    }
+  }
+}
